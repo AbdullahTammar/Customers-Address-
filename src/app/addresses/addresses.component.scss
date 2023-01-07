@@ -1,0 +1,135 @@
+.card {
+    text-align: center;
+    margin: auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+
+   .card1 {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     max-width: 300px;
+     margin: auto;
+     text-align: center;
+     font-family: arial;
+     margin-bottom: 17px;
+   }
+
+   .inpName{
+
+    width: 200px;
+    height: 11px;
+    padding: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+   }
+  
+  // .title {
+  //   color: grey;
+  //   font-size: 18px;
+  // }
+  
+  // button {
+  //   border: none;
+  //   outline: 0;
+  //   display: inline-block;
+  //   padding: 8px;
+  //   color: white;
+  //   background-color: #04AA6D;
+  //   text-align: center;
+  //   cursor: pointer;
+  //   width: 100%;
+  //   font-size: 18px;
+  //    animation-name: background-color;
+  //   animation-duration: 500ms; 
+  // }
+  // button:hover{
+
+  //   border: 1px solid red;
+  //   color:white;
+  //   background-color: red;
+
+  // }
+  
+  // a {
+  //   text-decoration: none;
+  //   font-size: 22px;
+  //   color: black;
+  // }
+  
+  // button:hover, a:hover {
+  //   opacity: 0.7;
+  // }
+  
+   .dd{
+
+
+    background-color: #04AA6D;
+     font-size: 50px;
+     text-align: center;
+     border-radius: 2.5px;
+
+   }
+   .headerText{
+     text-align: center;
+     text-decoration: none;
+     color: white;
+     font-size: 50px;
+     border: #ddd;
+   border-radius: 4px;
+   cursor:pointer;
+    
+   }
+  .profileTitle{
+    margin-top: 60px;
+   }
+
+   .btnUbName{
+    
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #04AA6D;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+   }
+   .btnDeName{
+    
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+   }
+
+   .tableTr{
+    background-color: #04AA6D;
+    color: white;
+   }

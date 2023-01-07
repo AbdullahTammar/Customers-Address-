@@ -1,0 +1,119 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  /* table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    cursor:grab;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+
+  ul{
+    text-align: center;
+  } */
+
+  .dd{
+
+
+    background-color: #04AA6D;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 2.5px;
+
+  }
+
+  .headerText{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    border: #ddd;
+    border-radius: 4px;
+    
+  }
+
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 6px;
+    width: 2px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+    text-decoration: none;
+  }
+  .buttonNew{
+    margin-left: -50;
+
+  }
+  .addNew{
+
+    padding: 8px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: #ddd;
+    margin-left: 200px;
+    margin-top: 130px;
+    margin-bottom: 0px;
+  }
+  .txt{
+    text-decoration: none;
+    color: black;
+  }
+
+ 

@@ -1,0 +1,40 @@
+<header class="dd"><a routerLink="" class="headerText">customers</a>
+
+</header>
+<h1 style="text-align:center" class="profileTitle">Customer Profile Card</h1>
+<div class="card1">
+  <img src="../../assets/images/john.png" alt="John" style="width:100%">
+  <P>ID : {{customer.id}}</P>
+  <p>Name : {{customer.name}}</p>
+
+  <input class="inpName" #name type="text" placeholder="Name" name="name" id="name"><br>
+  <button class="btnUbName" (click)="update(name.value)">Update Name</button><br>
+
+  <button class="btnUbName" (click)="deleteCustomer()">Delete Customer</button>
+
+
+</div>
+<div>
+
+  <table class="card">
+    <tr class="tableTr">
+      <th>Addresses</th>
+      <th>Update</th>
+      <th>Delete</th>
+
+    </tr>
+    <tr *ngFor="let address of customer.addresses">
+      <td>{{address.name}}</td>
+      <td>
+        <input #addressName type="text" placeholder="addressName" name="addressName" id="addressName">
+        <button (click)="updateAddress(address,addressName.value)">Update</button>
+      </td>
+      <td><button (click)="deleteAddress(address)">Delete</button></td>
+
+    </tr>
+
+  </table>
+
+  <input #address type="text" placeholder="address" name="address" id="address"><br>
+  <button (click)="addAddress(address.value)">Add address</button>
+</div>
